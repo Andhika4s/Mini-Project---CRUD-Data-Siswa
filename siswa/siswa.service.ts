@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Siswa } from './entities/siswa.entity';
-import { UpdateSiswaDto } from './dto/update-siswa.dto';
+import { Siswa } from './siswa.interface';
 import { not } from 'rxjs/internal/util/not';
 import { NotFoundException } from '@nestjs/common';
 

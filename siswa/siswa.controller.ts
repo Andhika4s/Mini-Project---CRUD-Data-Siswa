@@ -1,7 +1,8 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
+import {Controller,Get,Post,Body,Patch,Param,Delete,
+} from '@nestjs/common';
 import { SiswaService } from './siswa.service';
-import { Siswa } from './entities/siswa.entity';
-import { UpdateSiswaDto } from './dto/update-siswa.dto';
+import { Siswa } from './siswa.interface'
+
 
 @Controller('Siswa')
 export class SiswaController {
